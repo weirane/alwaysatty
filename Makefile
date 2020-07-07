@@ -9,7 +9,7 @@ libalwaysatty.so: alwaysatty.c
 	$(CC) $(CFLAGS) $^ $(LDFLAGS) -o $@
 
 install: libalwaysatty.so
-	install -Dm755 alwaysatty "$(DESTDIR)$(PREFIX)/bin"
-	install -Dm755 libalwaysatty.so "$(DESTDIR)$(PREFIX)/lib"
+	install -Dm755 alwaysatty "$(DESTDIR)$(PREFIX)/bin/alwaysatty"
+	install -Dm755 libalwaysatty.so "$(DESTDIR)$(PREFIX)/lib/libalwaysatty.so"
 
 .PHONY: install
