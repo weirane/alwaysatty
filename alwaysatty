@@ -1,0 +1,6 @@
+#!/bin/sh
+
+libpath=/usr/lib/libalwaysatty.so
+
+export LD_PRELOAD=$libpath${LD_PRELOAD:+:$LD_PRELOAD}
+exec "$@"
