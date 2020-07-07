@@ -1,1 +1,3 @@
 /libalwaysatty.so
+/pkg/*
+!/pkg/PKGBUILD
