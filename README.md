@@ -9,6 +9,10 @@ Use the AUR:
 
     yay -S alwaysatty-git
 
+Usage:
+
+    alwaysatty pacman --color auto -Qs python | less
+
 Tips:
 
 - Add `alias alwaysatty='alwaysatty '` to your bash/zsh config to use
