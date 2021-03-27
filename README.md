@@ -2,20 +2,22 @@
 
 Make programs always think their stdout is a tty.
 
+Install:
+
     make
     sudo make install
 
-Use the AUR:
+Insall from the AUR:
 
-    yay -S alwaysatty-git
+    paru -S alwaysatty-git
 
 Usage:
 
-    alwaysatty pacman --color auto -Qs python | less
+    alwaysatty pacman -Qs python | less
 
 Tips:
 
-- Add `alias alwaysatty='alwaysatty '` to your bash/zsh config to use
-    `alwaysatty` with your aliases.
-- Add `compdef alwaysatty=command` to your zshrc to get command completions for
+- Add `alias alwaysatty='alwaysatty '` to bashrc/zshrc to use `alwaysatty` with
+    aliases.
+- Add `compdef alwaysatty=command` to zshrc to get command completions for
     `alwaysatty`.
